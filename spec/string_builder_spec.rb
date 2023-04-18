@@ -9,6 +9,6 @@ RSpec.describe StringBuilder do
   it "has a size of that string's length" do
     string_builder = StringBuilder.new
     string_builder.add("Mergz")
-    expect(string_builder.size).to eq 5
+    expect(string_builder.size).to eq "5
   end
 end
